@@ -9,12 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "encodedData": {
-      "type": "text"
-    },
-    "mimeType": {
-      "type": "string"
-    },
     "file": {
       "model": "file",
       "via": "related",
@@ -25,6 +19,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
     }
   }
 }
