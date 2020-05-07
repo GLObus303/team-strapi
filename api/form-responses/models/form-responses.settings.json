@@ -9,17 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "file": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "name": {
       "type": "string"
     },
@@ -28,6 +17,9 @@
     },
     "message": {
       "type": "text"
+    },
+    "file": {
+      "type": "string"
     }
   }
 }
